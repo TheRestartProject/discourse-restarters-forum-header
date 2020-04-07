@@ -1,0 +1,272 @@
+/*-------------------------------------------------
+   VARIABLES: choose the colors of your banner
+-------------------------------------------------*/
+
+/*$main-color: #0394a6;
+$background-color: #0394a6;*/
+
+$main-color: $secondary;
+$background-color: $secondary;
+
+.banner-box {
+    /*color: #000000; EDIT */
+}
+
+/*-------------------------------------------------
+   EXPAND-COLLAPSE BANNER
+-------------------------------------------------*/
+#main-outlet {
+    padding-top: 4.8572em;
+}
+
+.button {
+    display: inline-block;
+    background: $primary;
+    color: $secondary;
+    text-align: center;
+    font-weight: bold;
+    text-decoration:none;
+    padding: 6px 12px;
+    width: -webkit-max-content;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 4.5em 6.625em/5.625em 4.5em;
+}
+ 
+.button a {
+
+}
+
+.button:hover {
+    color: $secondary;
+    text-decoration:underline;
+}
+
+.button:visited {
+    color: $secondary;
+}
+
+.button:active {
+    text-decoration:underline;
+}
+
+.buttonHighlight {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: -2px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+.buttonHighlight#left {
+    background-image: url(https://talk.restarters.net/uploads/default/original/1X/36e3fcc3134a932d5d7737ec376c30a6ee76cba3.png);
+}
+
+.buttonHighlight#right {
+    background-image: url(https://talk.restarters.net/uploads/default/original/1X/dc564be8aa81e10377c097ae4de8056c09c2e88e.png);
+}
+
+.button#welcome {
+    background: $secondary;
+    color: $primary;
+    margin: 0;
+}
+
+.button2 {
+    display: inline-block;
+    background: #EE424A;
+    color: #ffffff;
+    font-family: "roboto",sans-serif;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration:none;
+    padding: 6px 12px;
+    width: -webkit-max-content;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    border-radius:3px;
+}
+
+
+/*---------------------------------------
+   SECTION:  BOXES
+-----------------------------------------*/
+
+/* Added to Desktop & Mobile sections
+.section-header#banner-top {
+    h1, h2 {
+    }
+}*/
+
+.banner-box {
+
+}
+
+.ornamentBox1 {
+    width: 100%;
+    height: 20px;
+    background-image: url(https://talk.restarters.net/uploads/default/original/1X/deb6835f8f437953820b12dea1779f0516614b92.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-top: 15px;
+}
+
+/*in Desktop & mob themes
+.x-title {
+}*/
+
+.description {
+    margin: 8px 0 0 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.banner-box .single-box {
+    border-radius: 8px;
+    margin: 1% 2%;
+    background-color: $header_background;
+    color: $primary;
+    .x-icon {
+        font-size: 70px;
+    }
+}
+
+
+//COLUMNS MANAGEMENT
+
+.col3 {
+    width: 30%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col2 {
+    width: 40%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #000000;
+    background: rgba(255,255,255,1);
+        ul {
+            margin:0px;
+        }
+}
+
+.col4 {
+    width: 22.5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container::after, .row::after {
+    clear: both;
+}
+
+.col2, .col3, .col4 {
+    text-align: center;
+}
+
+.row::after {
+    content: " ";
+    display: table;
+}
+
+.row #banner-content_wrap {
+    margin: 0% 0% 0% 3.5%;
+}
+
+//BOX HEADING POSITIONING
+
+.banner-box .single-box h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+//COLORED LINE
+
+.colored-line {
+    margin: auto;
+    width: 165px;
+    height: 1px;
+    background: $main-color;
+}
+
+//SINGLE BOX, TEXT ALIGNMENT
+
+.box p {
+    text-align: center;
+}
+
+//TEXT ALIGNMENT INSIDE BUTTONS
+
+#my-button {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+//IMAGE SIZE AS ICON SIZE
+
+.responsive-img {
+    border-style: none;
+    border-width: 1px;
+    height: 70px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top:20px;
+}
+
+//LIST ALIGNMENT
+
+.feature-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+//BUTTON BACKGROUND
+
+.col2, .col3, .col4 {
+    .btn.btn-icon-text.ember-view {
+        background: $main-color;
+    }
+}
+
+//CLOSE BUTTON ON THE TOP RIGHT
+
+.banner-box .close {
+    border: none;
+    background: transparent;
+    padding-top: 5px;
+    float: right;
+}
+
+
+//ADJUST PLACEMENT OF AVATAR FLAIR
+.topic-avatar .avatar-flair.rounded, .avatar-flair-preview .avatar-flair.rounded, .collapsed-info .user-profile-avatar .avatar-flair.rounded {
+    bottom: 0px;
+    right: 0px;
+}
+
+.search-column {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
