@@ -16,27 +16,7 @@ $background-color: $secondary;
    EXPAND-COLLAPSE BANNER
 -------------------------------------------------*/
 #main-outlet {
-    padding-top: 4.8572em;
-}
-
-.button {
-    display: inline-block;
-    background: $primary;
-    color: $secondary;
-    text-align: center;
-    font-weight: bold;
-    text-decoration:none;
-    padding: 6px 12px;
-    width: -webkit-max-content;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    margin: 10px 0;
-    text-decoration: none;
-    border-radius: 4.5em 6.625em/5.625em 4.5em;
-}
- 
-.button a {
-
+   padding-top: 8em;
 }
 
 .button:hover {
@@ -269,4 +249,13 @@ $background-color: $secondary;
     text-align: right;
     margin: 0;
     padding: 0;
+}
+
+.header-icon {
+    display: inline-flex;
+    font-size: 200%;   
+}    
+
+.d-none {
+    padding-left: 0.4em;
 }

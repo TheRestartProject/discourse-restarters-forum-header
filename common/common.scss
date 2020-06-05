@@ -32,7 +32,6 @@ $background-color: $secondary;
     line-height: 1.2rem;
     margin: 10px 0;
     text-decoration: none;
-    border-radius: 4.5em 6.625em/5.625em 4.5em;
 }
  
 .button a {
@@ -249,6 +248,21 @@ $background-color: $secondary;
     }
 }
 
+// VISITOR SIGN UP BUTTON
+.btn#visitor-sign-up {
+    border: 1px solid #222;
+    transition: unset;
+    box-shadow: 5px 5px 0 0 #222;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.btn#visitor-sign-up:hover {
+    border: 2px solid #222;
+    padding: 9px;
+    color: inherit;
+}
+
 //CLOSE BUTTON ON THE TOP RIGHT
 
 .banner-box .close {
@@ -258,6 +272,19 @@ $background-color: $secondary;
     float: right;
 }
 
+
+// VISITOR BANNER
+.visitorBanner {
+    padding-bottom: 2em;
+    display: none;
+}
+
+.anon .visitorBanner {
+    display: inherit;
+}
+.anon .hide-if-anon {
+    display:none;
+}
 
 //ADJUST PLACEMENT OF AVATAR FLAIR
 .topic-avatar .avatar-flair.rounded, .avatar-flair-preview .avatar-flair.rounded, .collapsed-info .user-profile-avatar .avatar-flair.rounded {
