@@ -2,15 +2,8 @@
    VARIABLES: choose the colors of your banner
 -------------------------------------------------*/
 
-/*$main-color: #0394a6;
-$background-color: #0394a6;*/
-
 $main-color: $secondary;
 $background-color: $secondary;
-
-.banner-box {
-    /*color: #000000; EDIT */
-}
 
 /*-------------------------------------------------
    EXPAND-COLLAPSE BANNER
@@ -260,7 +253,7 @@ $background-color: $secondary;
 .btn#visitor-sign-up:hover {
     border: 2px solid #222;
     padding: 9px;
-    color: inherit;
+    color: #222;
 }
 
 //CLOSE BUTTON ON THE TOP RIGHT
@@ -279,19 +272,19 @@ $background-color: $secondary;
     display: none;
     padding-top: 1em;
     p {
-        font-weight: 600;
-        font-size: 110%;
+      font-weight: 600;
+      font-size: 110%;
     }
 }
 
 .anon .visitorBanner {
-    display: inherit;
-    text-align: center;
-    background-color: #0392A6;
-    margin: 0 0 1em 0;
-    color: #fff;
-    border: 3px solid #006E7E;
-    font-size: 110%;
+   display: inherit;
+   text-align: center;
+   background-color: #0392A6;
+   margin: 0 0 1em 0;
+   color: #fff;
+   border: 3px solid #006E7E;
+   font-size: 110%;
 }
 
 .anon .hide-if-anon {
